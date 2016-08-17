@@ -1,0 +1,11 @@
+Success|teste-00001|set item attribute only|20160811 04:57:15
+Failed|teste-00002|Set item attribute and parent item|20160811 04:57:15
+Success|teste-00003|get restrictions from attribute Util which doesn't have parent item|20160811 04:57:15
+Success|teste-00004|get restrictions from attribute Util which has parent item|20160811 04:57:15
+Failed|teste-00001|pass in a valid item relation path with only one level relation|20160811 04:57:15
+Success|teste-00002|pass in a valid item relation path with two level of relations|20160811 04:57:15
+Success|teste-00003|pass in blank item relation path, expect to get null value|20160811 04:57:15
+Success|teste-00004|pass in an invalid item relation path, it should return null|20160811 04:57:15
+Failed|teste-00004|Test import all RMCA COBA tables|20160811 04:57:19
+
+Total: 3 Tests Failed
